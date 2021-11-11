@@ -1,0 +1,54 @@
+
+
+
+
+ /*Особенности производства кроссовок*/
+ .bbb {                  
+ padding-left: 40px;
+ padding-top: 40px;
+ color: #000;
+ text-align: center;
+  
+}
+ /* Иновационные технологии создания кроссовок*/
+.inova{
+    text-align: center;
+}
+
+
+ /*Оригинальная система стабилизации*/
+.p{
+    text-align: center;
+}
+
+
+
+
+
+ /* то что идет после Особенности производства кроссовок*/
+.aaa{
+    color: #FBCEB1;
+}
+
+/*Выбор модели на разные условия*/
+.bb{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+/*В нашем магазине есть разные виды кроссовок от лидирующих брендов*/
+.aa{
+    color: #8A8A8A;  
+}
+
+/*фотки первые*/
+.kros{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+/*фотки вторые*/
+.adik{
+    padding-left: 40px;
+    padding-top: 20px;
+}

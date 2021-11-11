@@ -1,0 +1,171 @@
+body{
+    margin:0;
+    background:#100F0E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+/*шапка*/
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1%;
+  text-align: center;
+
+}
+ .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .tel {
+  text-decoration: none;
+  color: #000000;
+  }
+ 
+  
+
+
+
+      /*меню*/
+nav{
+   content: none;
+   height:50px;
+   width:100%;
+   background:#000;
+}
+.menu{
+   display:flex;
+   justify-content:center;
+
+   background-size:50px 40px;
+   background-repeat:no-repeat;
+}
+.menu li{
+   margin:10px 40px;
+   list-style-type: none;
+
+}
+a{
+   color:white;
+   text-decoration:none;
+}
+     /*Анимация Бренды*/
+.fun-hover {
+  background-image: -webkit-linear-gradient(left, red 50%, white 50%);
+  background-image: linear-gradient(to right, #B00000 50%, white 50%);
+  background-position: 0;
+  background-size: 200%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color:#000;
+  font-size:40px;
+}
+.fun-hover:hover {
+  background-position: -100%;
+}
+
+
+
+
+
+/*Каритнка магазина*/
+.foto{
+padding-right:15%;
+
+}
+.foto2{
+padding-left:15%;
+
+}
+
+
+
+  /* начало часто покупаемых кроссовок*/
+.skills-list {                          
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+ /* тут вставляются фотки*/
+.skill-adik {
+  background-image: url("images/ad.png");   
+
+}
+.skill-puma {
+  background-image: url("images/puma.png");
+}
+
+.skill-nike{
+  background-image: url("images/nike.png");
+}
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #080208;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+  /* тут конец часто покупаемых кросс*/
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #FFD700;
+  border-radius: 6px;        
+}
+
+
+.magaz{
+overflow:hover;
+margin-bottom:90px;
+}
+
+/* подвал*/
+.page-footer{
+ color: #000;
+ }
+ 
+ .container {
+  text-align: center;
+  color: #000;
+  }
+
+.page-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+ 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles{
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: #B00000;
+  display: block;
+  border-radius: 2px;
+}
+.akeconsa-udaneles a span {
+  color: #f7f0f0;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
+}
